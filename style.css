@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+i:hover{
+    background-color: #cfcfcf;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* left navbar here css hre */
+
+.left-bar{
+  width: 13%;
+}
+
+
+/* midller bar css here */
+
+.middle-bar-main-container{
+    width: 77%;
+}
+
+.middle-bar{
+    width: 47%;
+    height: 3rem;
+    background-color: #eaf1fb;
+    border-radius: 30px;
+    margin-right: 100px;
+}
+
+.middle-bar:hover{
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(93, 88, 88, 0.5);
+}
+
+.middle-bar-input{
+    background-color: transparent;
+    border: none;
+}
+
+.middle-bar-input::placeholder {
+    color: #595151;
+    font-size: 20px;
+}
+  
+
+.middle-bar-input:focus {
+    outline: none; 
+    color: black; 
+}
+
+/* right bar css herhe */
+
+.right-bar{
+    width: 10%;
+    font-size: 25px;
+}
+
+/* compose esction css here */
+
+.compose-text{
+    background-color: #afcaf0;
+    width: 7rem;
+    height: 4rem;
+    border-radius: 14px;
+}
+
+.compose-text:hover{
+    box-shadow: 0px 4px 8px rgba(93, 88, 88, 0.5);
+}
+    
+
+.compose-text p{
+    margin: 0px;
+}
+
+/* compose items css hre */
+
+.inbox{
+    border-radius: 11px;
+   
+    margin-top: 6px;
+}
+
+.inbox:hover{
+    background-color: rgb(208, 207, 207);
+}
+
+/* label css here */
+
+.label-items:hover{
+    background-color: rgb(208, 207, 207);
+    border-radius: 11px;
+}
+
+/* compose css hree */
+
+.compose{   
+     width: 13%;
+}
+
+/* here is the middle part css mails css here */
+
+.right-upper-part-span:hover{
+    border-radius: 10px;
+    background-color: #d1d1d1;
+    cursor: pointer;
+}
+
+/* middle part middel sections buttons css here */
+
+.emails{
+    height: 753px;
+}
+
+.middle-part-buttons{
+    padding: 20px;
+}
+.middle-part-buttons:hover{
+    background-color: #afcaf0;
+    border-radius: 10px;
+}
+
+/* mails text and other stuff hree */
+
+.emails{
+    overflow:scroll;
+}
+
+.mail-text{
+    border-top: 1px solid rgb(186, 186, 186);
+    border-bottom: 1px solid rgb(186, 186, 186);
+}
+
+.mail-text:hover{
+    box-shadow: 0px 4px 8px rgba(93, 88, 88, 0.5);
+}
+
+.middle-part-mails{
+    display: flex;
+    gap:30px;
+}
+
+/* right logsos css here  */
+
+.logos i{
+font-size: 20px;
+}
+
+
+
+/* media query here */
+@media (max-width: 730px){
+    .middle-bar-main-container{
+        width: 50%;
+    }
+    .middle-bar{
+        width: 85%;
+    }
+    .right-bar{
+        width: 30%;
+    }
+}
+
+@media (max-width: 662px) {
+    
+    .middle-bar{
+        
+        margin-left: 30px;
+    }
+    .middle-bar-input::placeholder {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 477px) {
+    .middle-bar-main-container{
+        display: flex;
+        justify-content: center;
+    }
+    .right-bar{
+        font-size: 15px;
+    }
+    .middle-bar-main-container{
+        width: 70%;
+        justify-content: end;
+    }
+    .middle-bar{
+        margin: 0px;
+        width: 100%;
+        height: 24px;
+    }
+    .middle-bar-input::placeholder {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 1166px){
+    .middle-part-buttons{
+        padding: 0px;
+    }
+    
+}
+
+/* fontsize of text and fo tawesome .logos */
+
+@media (max-width: 1815px){
+     .mail-text span{
+          font-size: 15px;
+     }
+     i{
+        font-size: 18px;
+    }
+    .logos i{
+        font-size: 18px;
+        }
+}
+
+@media (max-width: 1579px){
+    .mail-text span{
+         font-size: 13px;
+    }
+    i{
+        font-size: 16px;
+    }
+    .logos i{
+        font-size: 16px;
+        }
+}
+
+@media (max-width: 1337px){
+    .mail-text span{
+         font-size: 10px;
+    }
+    i{
+        font-size: 14px;
+    }
+    .logos i{
+        font-size: 14px;
+        }
+}
+
+@media (max-width: 1337px){
+    .mail-text span{
+         font-size: 10px;
+    }
+    i{
+        font-size: 14px;
+    }
+    .logos i{
+        font-size: 14px;
+        }
+}
+
+@media (max-width: 587px){
+    .mail-text span{
+         font-size: 5px;
+    }
+    i{
+        font-size: 8px;
+    }
+    .logos i{
+        font-size: 8px;
+        }
+}
+
+/* midlle span query here */
+
+@media (max-width: 993px){
+    .middle-part-buttons span{
+          font-size: 10px;
+    }
+}
+
+@media (max-width: 813px){
+    .middle-part-buttons span{
+          font-size:5px;
+    }
+    .compose-text {
+        width: 5rem;
+    }
+    .compose-text i,p{
+        font-size: 10px;
+    }
+    .inbox i,span{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 549px){
+    .compose-text {
+        width: 2rem;
+        height: 1rem;
+    }
+    .compose-text i,p{
+        font-size: 5px;
+    }
+    .inbox i,span{
+        font-size: 5px;
+    }
+    .compose{
+        width: 5%;
+    }
+}
+
+@media (max-width: 549px){
+    .middle-part-mails{
+        gap: 0px !important;
+    }
+}
+
+@media (max-width: 379px){
+    .right-logos-vertical{
+        display: none;
+    }
+}
+
+
